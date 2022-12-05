@@ -5,38 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
     <title>My Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="{{ url_for('static', filename='')}}" rel="stylesheet"/>
-    <link rel="icon" sizes="32x32" type="image/png" href="{{ url_for('static', filename='')}}"/>
-    <link rel="shortcut icon" href="{{ url_for('static', filename='')}}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" sizes="32x32" type="image/png" href="{{ url_for('static', filename='')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='')}} ">
 </head>
+<nav>
+    <h3>ROME</h3>
+    <ul>
+        <li> 
+            <a href="#Home">Home</a>
+        </li>
+        <li>
+            <a href="#About">About</a>
+        </li>
+        <li>
+            <a href=#Contact>Contacts</a>
+        </li>
+    </ul>
+</nav>
+<header>
+
+</header>
 <body>
-    <!-- Navbar -->
-    <nav>
-        <a href="#" class="logo">
-            <h1>
-                <span class="rome">ROME</span>
-                <span class="bot">&#x1F44A;</span>
-            </h1>
-        </a>
-        <ul>
-            <li class="nav-item">
-                <a href="#Home">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#Features"> Features</a>
-            </li>
-            <li class="nav-item">
-                <a href="#Contact">Contacts</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- web page script -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous""></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='')}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <div>
+   <section class="features">
         <h2>Features</h2>
         <p>Some of the features Rome has:
             Rome, can make you laugh with jokes,
@@ -44,7 +35,6 @@
             Play games with Rome(This feature is yet to be added)
 
         </p>
-    </div>
     <div>
         <p>We decided to create a simple chatbot that anyone can have a conversation with. 
             This is because we had realised that most people in this life people dont open up to others very easily.
@@ -52,7 +42,8 @@
         </p>
 
     </div>
-    <div>
+   </section>
+    <section class="contact">
         <h1>Contact</h1>
         <p>To contact us or see more of our work click on:</p>
         <ul>
@@ -61,7 +52,7 @@
             <li href="">Github</li>
 
         </ul>
-    </div>
+    </section>
     <footer>
         <p>To view the repository click on</p>
         <a href="">Github</a>
