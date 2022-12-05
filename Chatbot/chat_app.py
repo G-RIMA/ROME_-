@@ -17,8 +17,8 @@ chatbot = ChatBot(
     
     )
 
-training_data_quesans = open('/home/gamal/ROME/training_data/QnA.txt').read().splitlines()
-training_data_personal = open('/home/gamal/ROME/training_data/QnA1.txt').read().splitlines()
+training_data_quesans = open('/home/gamal/ROME/Chatbot/training_data/QnA.txt').read().splitlines()
+training_data_personal = open('/home/gamal/ROME/Chatbot/training_data/QnA1.txt').read().splitlines()
 
 training_data = training_data_quesans + training_data_personal
 
