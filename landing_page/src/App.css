@@ -1,11 +1,60 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App { 
+  background-color: #282c34;
+
 }
+
+.logo {
+  height: 30vmin;
+  pointer-events: none;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding-right: 700px;
+  margin-top: auto;
+}
+.rome {
+  padding-left: 10px;
+}
+.logo img {
+  width: 80px;
+  border-radius: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.nav-list {
+  width: 70%;
+  length:20%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.nav-list li {
+  list-style: none;
+  padding: 30px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-list li a:hover {
+  color: grey;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,17 +64,91 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: fit-content;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard {
+  background-color: #282c34;
+  font-size: calc(20px + 2vmin);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: normal;
+  padding-left: 50px;
+}
+
+.title1 {
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  height: 50px;
+  width: 250px;
+  color: black;
+  background-color: blue;
+  cursor: pointer;
+  padding-top: 10px;
+  font-size: calc(5px + 2vmin);
+  padding-left: 100px;
+  align-items: center;
+}
+
+.btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+
+}
+
+.description {
+  margin: left;
+  width: 500px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 95%;
+  max-height:85%;
+
+}
+.features {
+  display: flex;
+  flex-direction: row;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+
+.container {
+  display: flex;
+  overflow-x:scroll;
+  width: 100%;
+}
+
+.card {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @keyframes App-logo-spin {
