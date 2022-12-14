@@ -24,7 +24,7 @@ const About =() => {
                     <p>An web developer with experience in React, Python, HTML and CSS.
                     </p>
                     
-                    <p><a href="#github"> This is the link to the github repository</a></p>
+                    <p><a href="https://github.com/G-RIMA/ROME_1"> This is the link to the github repository</a></p>
 
                 </div>
             </div>

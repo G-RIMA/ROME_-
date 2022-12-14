@@ -7,9 +7,9 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <ul>
-                            <li><a href="#twitter">Twitter</a></li>
-                            <li><a href="#github">Github</a></li>
-                            <li><a href="#linkedIn">LinkedIn</a></li>
+                            <li><a href="https://twitter.com/AssuntaMaria4">Twitter</a></li>
+                            <li><a href="https://github.com/G-RIMA">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/assunta-maria/">LinkedIn</a></li>
                         </ul>
                         
                     </div>
