@@ -1,5 +1,5 @@
 nav {
-    background-color: #fff;
+    background-color: rgb(20, 17, 228);
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -9,6 +9,7 @@ nav {
 }
 
 nav .navbar-brand {
+    background-color: rgb(20, 17, 228);
     color: black;
     font-size: 30px;
     text-transform: uppercase;
@@ -28,12 +29,12 @@ nav a{
 }
 
 nav a:hover {
-    color: rgb(112, 13, 224);
+    color: rgb(10, 9, 59);
     transition: .2s ease-in-out;
 }
 
 nav a.first{
-    background-color: rgb(112, 13, 224);
+    background-color: rgb(73, 71, 199);
     color: #fff !important;
 
 }

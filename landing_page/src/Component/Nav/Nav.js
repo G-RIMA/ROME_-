@@ -4,7 +4,7 @@ import './Nav.css';
 
 const Navs = () => {
     return(
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
             <Container>
                 <Navbar.Brand href="/home/gamal/ROME_1/landing_page/src/Component/Home/Home.js">ROME</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

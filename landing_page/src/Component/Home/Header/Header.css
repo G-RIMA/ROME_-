@@ -1,16 +1,26 @@
 header{
+    background: url('/home/gamal/ROME_1/landing_page/src/assets/background.jpg');
     width: 100%;
     max-width: 100%;
     height: auto;
     overflow: hidden;
     text-align: center;
     padding: 25px 0px; 
-    background-color: blueviolet;
 }
 
+.header-overlay {
+    background-color: rgb(20, 17, 228, .3);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 25px 0px;
+
+}
 header .row {
     margin: 60px 0px;
 }
+
 
 header h2{
     color: #fff;
@@ -21,8 +31,10 @@ header h2{
     line-height: 75px;
 }
 
+
+
 header p {
-    columns: #fff;
+    color: #fff;
     font-size: 16px;
     line-height: 30px;
     margin: 35px 0px;
