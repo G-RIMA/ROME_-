@@ -1,0 +1,20 @@
+.contact {
+    width: 50%;
+    height: 300px;
+    height: auto;
+    overflow: hidden;
+    justify-items: center;
+
+}
+
+.contact .row {
+    margin: 15px 0px;   
+}
+
+.contact h2 {
+    color: #000;
+    font-size: 30px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

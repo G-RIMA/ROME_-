@@ -1,0 +1,15 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0px 5px 30px;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.footer ul li {
+    display: flex;
+    flex-direction: row;
+}
+
