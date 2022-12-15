@@ -1,5 +1,5 @@
 header{
-    background: url('/home/gamal/ROME_1/landing_page/src/assets/background.jpg');
+    background: url('../../../assets/background.jpg');
     width: 100%;
     max-width: 100%;
     height: auto;
